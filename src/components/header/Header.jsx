@@ -1,14 +1,15 @@
 import React from 'react'
 import style from './header.module.sass'
-const Header = () => {
+import {Navbar} from "./navbar/Navbar";
+
+const Header = (props) => {
     return (
         <header className={`${style.header} container`}>
-            <div className={style.logo}><span></span>LOGO</div>
-            <nav className={style.navbar}>
-                <a>Skill</a>
-                <a>Work</a>
-                <a>Contact</a>
-            </nav>
+            <div className={style.logo_wrap}>
+                <div className={style.logo}></div>
+                <div className={style.name}><span>Y</span>.Soldatov</div>
+            </div>
+                <Navbar nav = {props.nav}/>
         </header>
     )
 }
