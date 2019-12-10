@@ -1,0 +1,55 @@
+.header
+  display: flex
+  justify-content: space-between
+  height: 80px
+  align-items: center
+
+.logo
+  color: #ffffff
+  position: relative
+@keyframes rotate
+  0%
+    transform: rotate(0)
+  100%
+    transform: rotate(360deg)
+.logo span
+  position: relative
+  display: block
+  top: 18px
+  left: -10px
+  z-index: -1
+  animation: rotate 2s linear
+  &:after
+    content: ''
+    position: absolute
+    height: 50px
+    width: 50px
+    display: block
+    background-color: transparent
+    border: 1px solid rgba(#42b883 , .6)
+    border-radius: 10em
+    box-shadow: 0 0 4px .5px rgba(#42b883 , .4)
+    top: -20px
+    left: -10px
+  &:before
+    content: ''
+    position: absolute
+    height: 20px
+    width: 20px
+    display: block
+    background-color: #252527
+    z-index: 11
+    border-radius: 10em
+    top: -30px
+    left: -10px
+.navbar
+  display: flex
+  a
+    margin-left: 10px
+    cursor: pointer
+    color: #42b883
+    height: 100%
+    border-bottom: 1px solid transparent
+    transition: border-bottom .5s ease
+    &:hover
+      border-bottom: 1px solid #fff
