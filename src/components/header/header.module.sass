@@ -35,20 +35,20 @@
     position: absolute
     height: 40px
     width: 40px
-    background-color: #42b883
+    background-color: var(--accent)
     left: 50%
 
     top: 50%
     transform: translate(-50%, -50%)
     border-radius: 10em
-    z-index: -1
+    z-index: 1
 
   &:after
     content: ''
     position: absolute
     height: 40px
     width: 40px
-    background-color: rgba(#42b883, .6)
+    background-color: rgba(#42b883, .9)
     z-index: -1
     left: 50%
     top: 50%
@@ -62,7 +62,7 @@
   a
     margin-left: 10px
     cursor: pointer
-    color: #42b883
+    color: #fff
     height: 100%
     border-bottom: 1px solid transparent
     transition: border-bottom .5s ease

@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './header.module.sass'
-import {Navbar} from "./navbar/Navbar";
+import {Navbar} from "./Navbar/Navbar";
 
 const Header = (props) => {
     return (
