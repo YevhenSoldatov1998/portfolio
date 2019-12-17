@@ -7,7 +7,7 @@ const Header = (props) => {
         <header className={`${style.header} container`}>
             <div className={style.logo_wrap}>
                 <div className={style.logo}></div>
-                <div className={style.name}><span>Y</span>.Soldatov</div>
+                <div className={style.name}><span> &lt;Y</span>.Soldatov /&gt;</div>
             </div>
                 <Navbar nav = {props.nav}/>
         </header>

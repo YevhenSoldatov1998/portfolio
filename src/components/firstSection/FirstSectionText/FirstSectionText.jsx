@@ -5,7 +5,7 @@ const FirstSectionText = (props) => {
             <h1 className={style.title}>
                 <small>Hello</small>
                 <strong>I am Yevhen Soldatov</strong>
-                <span>A Frond-End Developer</span>
+                <strong>A Frond-End Developer</strong>
             </h1>
     )
 }

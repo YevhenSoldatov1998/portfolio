@@ -1,7 +1,8 @@
 import React from 'react'
+import s from './Skill.module.sass'
 const Skill = (props) => {
     return(
-        <figure className="skill">
+        <figure className={s.skill}>
             <div className="img">
                 <svg width="160" height="160" viewBox="0 0 256 230" xmlns="http://www.w3.org/2000/svg"
                      preserveAspectRatio="xMinYMin meet">
