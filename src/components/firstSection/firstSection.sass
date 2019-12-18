@@ -1,0 +1,29 @@
+.firstSection
+  display: flex
+  height: 100vh
+  background-color: #210057
+  position: relative
+  z-index: 1
+  overflow: hidden
+  min-height: 700px
+.firstSection main
+  position: relative
+  width: 100%
+  &:after
+    top: 0
+    left: 0
+    right: 0
+    content: ''
+    bottom: 0
+    z-index: -1
+    display: block
+    position: absolute
+    background-image: url('../../img/sky.jpg')
+    background-size: cover
+    transition: filter 10s ease
+  &.dark
+    &:after
+      filter: grayscale(.9)!important
+
+
+

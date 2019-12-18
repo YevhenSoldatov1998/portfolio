@@ -1,15 +1,17 @@
 import React from 'react';
 import 'normalize.css/normalize.css'
 import style from './App.sass';
-import Header from "./components/header/Header";
 import FirstSection from "./components/firstSection/FirstSection";
 import Skills from "./components/Skills/Skills";
 
-function App(props) {
+const App = (props) => {
   return (
     <div className={style.appWrap}>
-        <Header nav = {props.store.getState().header.nav}/>
-        <FirstSection/>
+        <FirstSection position = {props.store.getState().sections.position}
+                      switch = {props.store.getState().sections.switch}
+                      onSwitch = {props.store.onSwitch.bind(props.store)}
+                      mouseMoved = {props.store.mouseMoved.bind(props.store) }
+                      nav = {props.store.getState().header.nav}/>
         <Skills/>
     </div>
   );
