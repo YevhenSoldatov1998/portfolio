@@ -32,7 +32,6 @@ export let store = {
         return this._state
     },
     _callSubscriber(){
-        alert("hello")
     },
     subscribe(observer){
         this._callSubscriber = observer

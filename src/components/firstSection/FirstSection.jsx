@@ -4,7 +4,6 @@ import bgImage from '../../img/sky.jpg'
 import Sun from "./Sun/Sun";
 import MountDown from "./MountDown/MountDown";
 import MountUp from "./MountUp/MountUp";
-import Header from "../header/Header";
 import Samurai from "./Samurai/Samurai";
 import FirstSectionText from "./FirstSectionText/FirstSectionText";
 import Switch from "./Switch/Switch";
@@ -19,7 +18,6 @@ const FirstSection = (props) => {
         <section onMouseMove={onMouseMove.bind(this)}
                  className={`firstSection`}>
             <main className={props.switch=='night'?'dark':false}>
-                <Header nav={props.nav}/>
                 <Sun switch={props.switch}/>
                 <Samurai switch={props.switch}/>
                 <MountUp switch={props.switch} />
