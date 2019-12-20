@@ -6,11 +6,11 @@ import MountUp from "./MountUp/MountUp";
 import Samurai from "./Samurai/Samurai";
 import FirstSectionText from "./FirstSectionText/FirstSectionText";
 import Switch from "./Switch/Switch";
-import {SunsetReducerCreator} from "../../redux/SunsetReducer";
+import {SUNSET_MOVE_CREATOR} from "../../redux/FirstSectionReducer";
 
 
 const FirstSection = (props) => {
-    const onMouseMove = () =>  props.dispatch(SunsetReducerCreator())
+    const onMouseMove = () =>  props.dispatch(SUNSET_MOVE_CREATOR())
     return (
         <section onMouseMove={onMouseMove.bind(this)}
                  className={`firstSection`}>

@@ -1,7 +1,7 @@
 import React from 'react'
 import s from './Switch.module.sass'
 import './Onoffswitch.css'
-import {ON_SWITCH_CREATOR} from "../../../redux/SwitchReducer";
+import {ON_SWITCH_CREATOR} from "../../../redux/FirstSectionReducer";
 
 const Switch = (props) => {
     const onClickSwitch = (e) => {

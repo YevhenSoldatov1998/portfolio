@@ -1,5 +1,4 @@
-import SwitchReducer from "./SwitchReducer";
-import SunsetReducer from "./SunsetReducer";
+import FirstSectionReducer from "./FirstSectionReducer";
 
 export let store = {
     _state: {
@@ -11,15 +10,14 @@ export let store = {
             ]
         },
         sections: {
-            position: {
-                x: 0,
-            },
+
             switch: 'night',
             skill:{
 
             }
         }
     },
+
     _callSubscriber(){
     },
     getState(){
@@ -34,8 +32,7 @@ export let store = {
 
 
     dispatch(action){
-        this._state.sections.switch = SwitchReducer(this._state.sections.switch , action);
-        SunsetReducer(action)
+        this._state.sections.switch = FirstSectionReducer(this._state.sections.switch , action);
         this._callSubscriber()
     }
 
