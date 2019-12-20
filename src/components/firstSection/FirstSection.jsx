@@ -1,6 +1,5 @@
 import React from 'react'
-import style from './firstSection.sass'
-import bgImage from '../../img/sky.jpg'
+import './firstSection.sass'
 import Sun from "./Sun/Sun";
 import MountDown from "./MountDown/MountDown";
 import MountUp from "./MountUp/MountUp";
@@ -11,13 +10,11 @@ import {SunsetReducerCreator} from "../../redux/SunsetReducer";
 
 
 const FirstSection = (props) => {
-    const onMouseMove = e => {
-        props.dispatch(SunsetReducerCreator())
-    }
+    const onMouseMove = () =>  props.dispatch(SunsetReducerCreator())
     return (
         <section onMouseMove={onMouseMove.bind(this)}
                  className={`firstSection`}>
-            <main className={props.switch=='night'?'dark':false}>
+            <main className={props.switch==='night'?'dark':false}>
                 <Sun switch={props.switch}/>
                 <Samurai switch={props.switch}/>
                 <MountUp switch={props.switch} />

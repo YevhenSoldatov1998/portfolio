@@ -1,6 +1,4 @@
-import React from 'react'
-
-const ON_SWITCH = 'ON_SWITCH'
+const ON_SWITCH = 'ON_SWITCH';
 export const ON_SWITCH_CREATOR = () => ({type: ON_SWITCH,})
 
 const SwitchReducer = (state , action) => {

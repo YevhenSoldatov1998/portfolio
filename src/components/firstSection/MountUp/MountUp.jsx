@@ -3,7 +3,7 @@ import mountUp from '../../../img/mountapp.png'
 import s from './MountUp.module.sass'
 
 const MountUp = (props) => {
-    const filterClassSwitch = props.switch == "day" ? "brightness(1)" : "brightness(0.4)"
+    const filterClassSwitch = props.switch === "day" ? "brightness(1)" : "brightness(0.4)";
     const styled = {
         filter: filterClassSwitch
     }

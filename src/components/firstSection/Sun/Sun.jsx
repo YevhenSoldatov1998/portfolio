@@ -1,8 +1,8 @@
 import React from 'react'
 import './Sun.sass'
 const Sun = (props) =>  {
-    const filterActiveSwitch = props.switch == 'day'?'10vh':"90vh"
-    const opacityActiveSwitch = props.switch == 'day'?'0.1':"0"
+    const filterActiveSwitch = props.switch === 'day'?'10vh':"90vh";
+    const opacityActiveSwitch = props.switch === 'day'?'0.1':"0";
     const styled = {
         transform: `translateX(-50%) translateY(${filterActiveSwitch})`
     }
