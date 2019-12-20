@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3b11df6f.chunk.css",
-    "main.js": "/portfolio/static/js/main.b38ff5da.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b38ff5da.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.96da5e8b.chunk.css",
+    "main.js": "/portfolio/static/js/main.f8a5a07a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f8a5a07a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.680679b4.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.680679b4.js.map",
     "static/css/2.764ccc25.chunk.css": "/portfolio/static/css/2.764ccc25.chunk.css",
-    "static/js/2.42f26f98.chunk.js": "/portfolio/static/js/2.42f26f98.chunk.js",
-    "static/js/2.42f26f98.chunk.js.map": "/portfolio/static/js/2.42f26f98.chunk.js.map",
+    "static/js/2.ac20fa7d.chunk.js": "/portfolio/static/js/2.ac20fa7d.chunk.js",
+    "static/js/2.ac20fa7d.chunk.js.map": "/portfolio/static/js/2.ac20fa7d.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.1f2463e10cae0818a1832f54358eb153.js": "/portfolio/precache-manifest.1f2463e10cae0818a1832f54358eb153.js",
+    "precache-manifest.9757f18f0aa100093310349d9d4e556e.js": "/portfolio/precache-manifest.9757f18f0aa100093310349d9d4e556e.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/portfolio/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.3b11df6f.chunk.css.map": "/portfolio/static/css/main.3b11df6f.chunk.css.map",
-    "static/js/2.42f26f98.chunk.js.LICENSE": "/portfolio/static/js/2.42f26f98.chunk.js.LICENSE",
+    "static/css/main.96da5e8b.chunk.css.map": "/portfolio/static/css/main.96da5e8b.chunk.css.map",
+    "static/js/2.ac20fa7d.chunk.js.LICENSE": "/portfolio/static/js/2.ac20fa7d.chunk.js.LICENSE",
     "static/media/mountapp.png": "/portfolio/static/media/mountapp.d1c0abc0.png",
     "static/media/mountdown.png": "/portfolio/static/media/mountdown.50a85d5b.png",
-    "static/media/samurai.png": "/portfolio/static/media/samurai.24f18e46.png",
-    "static/media/sky.jpg": "/portfolio/static/media/sky.e4e5624c.jpg"
+    "static/media/samurai.webp": "/portfolio/static/media/samurai.3f7073f0.webp",
+    "static/media/firstSection.sass": "/portfolio/static/media/sky.e4e5624c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.680679b4.js",
     "static/css/2.764ccc25.chunk.css",
-    "static/js/2.42f26f98.chunk.js",
-    "static/css/main.3b11df6f.chunk.css",
-    "static/js/main.b38ff5da.chunk.js"
+    "static/js/2.ac20fa7d.chunk.js",
+    "static/css/main.96da5e8b.chunk.css",
+    "static/js/main.f8a5a07a.chunk.js"
   ]
 }
