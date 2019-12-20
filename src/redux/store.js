@@ -1,3 +1,6 @@
+import SwitchReducer from "./SwitchReducer";
+import SunsetReducer from "./SunsetReducer";
+
 export let store = {
     _state: {
         header: {
@@ -17,25 +20,26 @@ export let store = {
             }
         }
     },
-    onSwitchActiveDay(){
-       this._state.sections.switch = "day"
-    },
-    onSwitch(){
-        this._state.sections.switch = this._state.sections.switch === 'day'?'night':'day';
-        this._callSubscriber()
-    },
-    mouseMoved(currentX){
-       this._state.sections.position.x = currentX;
-       this._callSubscriber()
+    _callSubscriber(){
     },
     getState(){
         return this._state
     },
-    _callSubscriber(){
-    },
     subscribe(observer){
         this._callSubscriber = observer
+    },
+    onSwitchActiveDay(){
+       this._state.sections.switch = "day"
+    },
+
+
+    dispatch(action){
+        this._state.sections.switch = SwitchReducer(this._state.sections.switch , action);
+        SunsetReducer(action)
+        this._callSubscriber()
     }
 
+
 }
+
 window.store = store

@@ -12,7 +12,9 @@ const Sun = (props) =>  {
     return (
         <div className="sun">
             <div style={styled}  className="circle">
-                <div></div>
+                <div>
+
+                </div>
                 <span className="m1"></span>
                 <span className="m2"></span>
                 <span className="m3"></span>

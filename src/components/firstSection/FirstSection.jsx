@@ -7,12 +7,12 @@ import MountUp from "./MountUp/MountUp";
 import Samurai from "./Samurai/Samurai";
 import FirstSectionText from "./FirstSectionText/FirstSectionText";
 import Switch from "./Switch/Switch";
+import {SunsetReducerCreator} from "../../redux/SunsetReducer";
 
 
 const FirstSection = (props) => {
     const onMouseMove = e => {
-        let currentX = e.nativeEvent.pageX;
-        props.mouseMoved(currentX);
+        props.dispatch(SunsetReducerCreator())
     }
     return (
         <section onMouseMove={onMouseMove.bind(this)}
@@ -23,7 +23,7 @@ const FirstSection = (props) => {
                 <MountUp switch={props.switch} />
                 <MountDown switch={props.switch} />
                 <FirstSectionText/>
-                <Switch onSwitch={props.onSwitch}/>
+                <Switch dispatch={props.dispatch}/>
             </main>
         </section>
     )

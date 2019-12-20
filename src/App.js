@@ -12,8 +12,7 @@ const App = (props) => {
             <Header nav={props.store.getState().header.nav}/>
             <FirstSection position={props.store.getState().sections.position}
                           switch={props.store.getState().sections.switch}
-                          onSwitch={props.store.onSwitch.bind(props.store)}
-                          mouseMoved={props.store.mouseMoved.bind(props.store)}
+                          dispatch = {props.store.dispatch.bind(props.store)}
             />
             <Skills/>
         </div>
