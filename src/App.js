@@ -7,6 +7,7 @@ import Header from "./components/header/Header";
 import {BrowserRouter} from "react-router-dom";
 
 const App = (props) => {
+    debugger
     return (
         <BrowserRouter>
             <div className={style.appWrap}>
