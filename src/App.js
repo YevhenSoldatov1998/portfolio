@@ -5,11 +5,12 @@ import FirstSection from "./components/firstSection/FirstSection";
 import Skills from "./components/Skills/Skills";
 import Header from "./components/header/Header";
 import {BrowserRouter} from "react-router-dom";
+import Works from "./components/Works/Works";
+import Contacts from "./components/Contacts/Contacts";
 
 const App = (props) => {
-    debugger
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <div className={style.appWrap}>
                 <Header nav={props.store.getState().header.nav}/>
                 <FirstSection position={props.store.getState().sections.position}
@@ -17,6 +18,8 @@ const App = (props) => {
                               dispatch={props.store.dispatch.bind(props.store)}
                 />
                 <Skills/>
+                <Works/>
+                <Contacts />
             </div>
         </BrowserRouter>
     );
