@@ -1,5 +1,5 @@
 import React from 'react'
-import mountUp from '../../../img/mountapp.png'
+import mountUp from '../../../img/mountapp.webp'
 import s from './MountUp.module.sass'
 
 const MountUp = (props) => {

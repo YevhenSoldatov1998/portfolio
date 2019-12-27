@@ -3,10 +3,10 @@
   z-index: 90
   width: 100%
   padding-left: 50%
-  margin-top: 25%
+  top: 50%
   right: 0
   position: absolute
-  bottom: 30vh
+  transform: translateY(-50%)
 .title
   display: flex
   flex-direction: column
@@ -33,3 +33,22 @@
     color: #d7d8ca
     transform: translateX(-100px)
     font-weight: 700
+@media screen and (max-width: 1400px)
+  .titleWrap
+    padding-left: 40%
+  .title
+    strong
+      font-size: 48px
+    span
+      font-size: 42px
+@media screen and (max-width: 1200px)
+  .titleWrap
+    padding-left: 20%
+  .title
+    small
+      font-size: 22px
+    span
+      font-size: 32px
+      transform: translateX(0)
+    strong
+      font-size: 36px

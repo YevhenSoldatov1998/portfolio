@@ -7,6 +7,8 @@ import Header from "./components/header/Header";
 import {BrowserRouter} from "react-router-dom";
 import Works from "./components/Works/Works";
 import Contacts from "./components/Contacts/Contacts";
+import Telework from "./components/telework/Telework";
+import Footer from "./components/footer/Footer";
 
 const App = (props) => {
     return (
@@ -19,7 +21,9 @@ const App = (props) => {
                 />
                 <Skills/>
                 <Works/>
+                <Telework />
                 <Contacts />
+                <Footer/>
             </div>
         </BrowserRouter>
     );

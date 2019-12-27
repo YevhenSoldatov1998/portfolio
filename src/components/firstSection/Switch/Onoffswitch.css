@@ -46,3 +46,8 @@
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
     right: 0px;
 }
+@media screen and (max-width: 1200px){
+    .onoffswitch{
+        transform: rotate(0);
+    }
+}

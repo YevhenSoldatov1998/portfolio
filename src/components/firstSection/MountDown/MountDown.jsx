@@ -1,5 +1,5 @@
 import React from 'react'
-import mountDown from '../../../img/mountdown.png'
+import mountDown from '../../../img/mountdown.webp'
 import s from './MountDown.module.sass'
 const MountDown = (props) => {
     const filterClassSwitch  = props.switch === "day"?"brightness(1)":"brightness(0.4)";
