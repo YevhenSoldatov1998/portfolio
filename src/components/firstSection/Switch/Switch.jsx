@@ -5,7 +5,7 @@ import {ON_SWITCH_CREATOR} from "../../../redux/FirstSectionReducer";
 
 const Switch = (props) => {
     const onClickSwitch = (e) => {
-        props.dispatch(ON_SWITCH_CREATOR());
+        props.ON_SWITCH_CREATOR();
     }
     return (
 

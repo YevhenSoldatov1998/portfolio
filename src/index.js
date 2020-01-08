@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
-import {store} from "./redux/store";
-let rerenderEntireTree = () => {
-    ReactDOM.render(<App store={store} />, document.getElementById('root'));
-}
+import {store} from "./redux/redux-store";
+import {Provider} from "react-redux";
 
-rerenderEntireTree()
-store.onSwitchActiveDay()
-store.subscribe(rerenderEntireTree)
-serviceWorker.unregister();
+ReactDOM.render(
+    <Provider store={store}>
+        <App />
+    </Provider>, document.getElementById('root'));
+
+
+

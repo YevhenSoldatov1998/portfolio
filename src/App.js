@@ -3,22 +3,21 @@ import 'normalize.css/normalize.css'
 import style from './App.sass';
 import FirstSection from "./components/firstSection/FirstSection";
 import Skills from "./components/Skills/Skills";
-import Header from "./components/header/Header";
 import {BrowserRouter} from "react-router-dom";
 import Works from "./components/Works/Works";
 import Contacts from "./components/Contacts/Contacts";
 import Telework from "./components/telework/Telework";
 import Footer from "./components/footer/Footer";
+import {HeaderContainer} from "./components/header/HeaderContainer";
+import {FirstSectionContainer} from "./components/firstSection/FirstSectionContainer";
 
 const App = (props) => {
+    debugger
     return (
         <BrowserRouter basename={process.env.PUBLIC_URL}>
             <div className={style.appWrap}>
-                <Header nav={props.store.getState().header.nav}/>
-                <FirstSection position={props.store.getState().sections.position}
-                              switch={props.store.getState().sections.switch}
-                              dispatch={props.store.dispatch.bind(props.store)}
-                />
+                <HeaderContainer />
+                <FirstSectionContainer/>
                 <Skills/>
                 <Works/>
                 <Telework />

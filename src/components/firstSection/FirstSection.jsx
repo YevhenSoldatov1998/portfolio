@@ -9,20 +9,26 @@ import Switch from "./Switch/Switch";
 import {SUNSET_MOVE_CREATOR} from "../../redux/FirstSectionReducer";
 
 
-const FirstSection = (props) => {
-    const onMouseMove = () =>  props.dispatch(SUNSET_MOVE_CREATOR())
-    return (
-        <section onMouseMove={onMouseMove.bind(this)}
-                 className={`firstSection`}>
-            <main className={props.switch==='night'?'dark':false}>
-                <Sun switch={props.switch}/>
-                <Samurai switch={props.switch}/>
-                <MountUp switch={props.switch} />
-                <MountDown switch={props.switch} />
-                <FirstSectionText/>
-                <Switch dispatch={props.dispatch}/>
-            </main>
-        </section>
-    )
+class FirstSection extends React.Component {
+    componentDidMount() {
+        setTimeout(() => this.props.DRAW_ONE_DAY_CREATOR(), 1000)
+    }
+
+    render() {
+        return (
+            <section className={`firstSection`}>
+                <main className={this.props.switch === 'night' ? 'dark' : false}>
+                    <Sun switch={this.props.switch}/>
+                    <Samurai switch={this.props.switch}/>
+                    <MountUp switch={this.props.switch}/>
+                    <MountDown switch={this.props.switch}/>
+                    <FirstSectionText/>
+                    <Switch ON_SWITCH_CREATOR={this.props.ON_SWITCH_CREATOR}/>
+                </main>
+            </section>
+        )
+    }
+
 }
+
 export default FirstSection
