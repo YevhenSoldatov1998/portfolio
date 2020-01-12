@@ -1,25 +1,24 @@
 import React from 'react'
 import s from './Works.module.sass'
-import {Title_s} from "../Skills/Skills";
 import Work from "./Work/Work";
+import {Title_s} from "../common/Title";
+import WorkCategory from "./WorkCategory/WorkCategory";
 
 const Works = (props) => {
+
     return (
         <section className={`container ${s.wrap}`}>
-            <Title_s >Works</Title_s>
+            <Title_s>{props.title}</Title_s>
+
             <div className={s.worksFilter}>
-                <span>Landing Page</span>
-                <span>SPA</span>
-                <span>Web-site</span>
+                {props.categories.map(category => {
+                    return <WorkCategory key={category.id} sortItems={props.sortItems} category={category}/>
+                })}
             </div>
             <div className={s.works}>
-                  <Work/>
-                  <Work/>
-                  <Work/>
-                  <Work/>
-                  <Work/>
-                  <Work/>
-
+                {props.items.map(item =>{
+                    return <Work showDetail={props.showDetail} item={item} />
+                })}
             </div>
         </section>
     )

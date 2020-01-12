@@ -1,6 +1,6 @@
 import React from 'react'
-import {Title_s} from "../Skills/Skills";
 import s from './telework.module.sass'
+import {Title_s} from "../common/Title";
 const Telework = (props) =>{
     return(
         <section className={`container ${s.telework}`}>

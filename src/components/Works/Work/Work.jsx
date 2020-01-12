@@ -1,11 +1,16 @@
 import React from 'react'
 import s from "./Work.module.sass";
+
 const Work = (props) => {
+    debugger
+    const call_showDetail = (item) =>{
+        props.showDetail(item)
+    }
     return(
         <article className={s.work}>
-            <img src="https://tigermonkey.net/wp-content/uploads/2016/07/Web-design-300x300.png" alt=""/>
-            <div className={s.title}>React Js</div>
-            <div className={s.description}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, quis.</div>
+            <img onClick={()=> call_showDetail(props.item)} src={props.item.img} alt=""/>
+            <div className={s.title}>{props.item.name}</div>
+            <div className={s.description}>{props.item.description}</div>
         </article>
     )
 }
