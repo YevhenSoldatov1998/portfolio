@@ -1,8 +1,10 @@
 const SORT = 'SORT';
 const SHOW_DETAIL = 'SHOW_DETAIL';
+const HIDE_DETAIL = 'HIDE_DETAIL';
 
 export const sortItems = (currentSort) => ({type: SORT, currentSort});
 export const showDetail = (item) => ({type: SHOW_DETAIL, item});
+export const hideDetail = () => ({type: HIDE_DETAIL});
 
 let initialState = {
     title: 'Works',
@@ -70,7 +72,7 @@ let initialState = {
             sort: 3
         }
     ],
-    itemsDetail:  {
+    itemsDetail: {
         id: null,
         name: null,
         img: null,
@@ -81,11 +83,13 @@ let initialState = {
     isShowDetails: false,
 };
 const worksReducer = (state = initialState, action) => {
-    switch(action.type){
+    switch (action.type) {
         case SORT:
             return {...state, currentSort: action.currentSort};
         case SHOW_DETAIL:
-          return {...state, itemsDetail: action.item};
+            return {...state, itemsDetail: action.item, isShowDetails: true};
+        case HIDE_DETAIL:
+            return {...state, isShowDetails: false}
         default:
             return state
     }

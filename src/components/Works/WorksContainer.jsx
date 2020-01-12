@@ -1,6 +1,6 @@
 import {connect} from "react-redux";
 import Works from "./Works";
-import {showDetail, sortItems} from "../../redux/worksReducer";
+import {hideDetail, showDetail, sortItems} from "../../redux/worksReducer";
 
 const mapStateToProps = (state) => {
     let newItems = state.works.items.filter(item =>{
@@ -21,5 +21,5 @@ const mapStateToProps = (state) => {
     }
 };
 export const WorksContainer = connect(mapStateToProps, {
-    sortItems, showDetail
+    sortItems, showDetail, hideDetail
 })(Works);

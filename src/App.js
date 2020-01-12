@@ -15,8 +15,8 @@ const App = (props) => {
     return (
         <BrowserRouter basename={process.env.PUBLIC_URL}>
             <div className={style.appWrap}>
-                {/*<HeaderContainer />*/}
-                {/*<FirstSectionContainer/>*/}
+                <HeaderContainer />
+                <FirstSectionContainer/>
                 <SkillsContainer/>
                 <WorksContainer/>
                 <Telework />
