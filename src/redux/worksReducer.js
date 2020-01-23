@@ -89,7 +89,7 @@ const worksReducer = (state = initialState, action) => {
         case SHOW_DETAIL:
             return {...state, itemsDetail: action.item, isShowDetails: true};
         case HIDE_DETAIL:
-            return {...state, isShowDetails: false}
+            return {...state, isShowDetails: false};
         default:
             return state
     }

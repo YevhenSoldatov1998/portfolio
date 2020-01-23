@@ -1,23 +1,47 @@
 import React from 'react'
 import s from './Skills.module.sass'
-import Skill from "./Skill/Skill";
-import {Title_s} from "../common/Title";
-
+import skill1 from '../../img/skill1.jpg'
+import skill2 from '../../img/skill2.png'
 const Skills = ({skills}) => {
     return (
-        <section className={`${s.wrap} container`}>
-            <Title_s dark>Skills</Title_s>
+        <section className={`${s.wrap}`}>
+                <article className={`${s.partDefault}`}>
+                <div className={`${s.part} ${s.partLeft}`}>
+                    <div className={`${s.title} titleDefault `}>Skills</div>
+                    <div className={`${s.partText} textDefault`}>
+                        <p>HTML5, CSS3,
+                            CSS frameworks, CSS preprocessors,
+                            CSS Grid, Flexbox, BEM</p>
+                        <p>JS, ES6, React, Redux, TypeScript, JS Tools
+                            (Yarn, npm, Webpack, Babel)</p>
+                        <p>JS, ES6, React, Redux, TypeScript, JS Tools
+                            (Yarn, npm, Webpack, Babel)</p>
+                    </div>
+                </div>
+                    <div className={s.partImg}>
+                        <img src={skill1} alt=""/>
+                    </div>
+                </article>
 
-            <div className={`${s.skills}`}>
-                <Skill/>
-                <Skill/>
-                <Skill/>
-                <Skill/>
-                <Skill/>
-                <Skill/>
-            </div>
+                <article className={`${s.partDefault} ${s.partTwo}`}>
 
+                    <div className={s.partImgReverse}>
+                        <img src={skill2} alt=""/>
+                    </div>
+                    <div className={`${s.part} ${s.partRight}`}>
+                        <div className={`${s.title} ${s.titleReverse} titleDefault `}>Why me? </div>
+                        <div className={`${s.partText} textDefault`}>
+                            <p>I am ready to go through and solve any
+                                difficulties encountered on the development
+                                path,</p>
+                            <p>which would ultimately give you a high-quality
+                                and flexible product</p>
+
+                        </div>
+                    </div>
+                </article>
         </section>
+
     )
 }
 export default Skills
