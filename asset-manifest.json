@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ab237001.chunk.css",
-    "main.js": "/portfolio/static/js/main.8c5bc02a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.8c5bc02a.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.0fadb65d.chunk.css",
+    "main.js": "/portfolio/static/js/main.c1241c66.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c1241c66.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.860ade9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.860ade9b.js.map",
     "static/css/2.764ccc25.chunk.css": "/portfolio/static/css/2.764ccc25.chunk.css",
-    "static/js/2.7b9e7653.chunk.js": "/portfolio/static/js/2.7b9e7653.chunk.js",
-    "static/js/2.7b9e7653.chunk.js.map": "/portfolio/static/js/2.7b9e7653.chunk.js.map",
+    "static/js/2.c1e26794.chunk.js": "/portfolio/static/js/2.c1e26794.chunk.js",
+    "static/js/2.c1e26794.chunk.js.map": "/portfolio/static/js/2.c1e26794.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.a307ea33f5f1281dcc73f976e133fac2.js": "/portfolio/precache-manifest.a307ea33f5f1281dcc73f976e133fac2.js",
+    "precache-manifest.dfd14c2caae3c8f65930ea3334ff639a.js": "/portfolio/precache-manifest.dfd14c2caae3c8f65930ea3334ff639a.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/portfolio/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.ab237001.chunk.css.map": "/portfolio/static/css/main.ab237001.chunk.css.map",
-    "static/js/2.7b9e7653.chunk.js.LICENSE": "/portfolio/static/js/2.7b9e7653.chunk.js.LICENSE",
+    "static/css/main.0fadb65d.chunk.css.map": "/portfolio/static/css/main.0fadb65d.chunk.css.map",
+    "static/js/2.c1e26794.chunk.js.LICENSE": "/portfolio/static/js/2.c1e26794.chunk.js.LICENSE",
     "static/media/mountapp.webp": "/portfolio/static/media/mountapp.23d89800.webp",
     "static/media/mountdown.webp": "/portfolio/static/media/mountdown.bb55f8d7.webp",
     "static/media/samurai.webp": "/portfolio/static/media/samurai.3f7073f0.webp",
+    "static/media/skill1.jpg": "/portfolio/static/media/skill1.8c023b8e.jpg",
+    "static/media/skill2.png": "/portfolio/static/media/skill2.6227914b.png",
     "static/media/firstSection.sass": "/portfolio/static/media/sky.e4e5624c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.860ade9b.js",
     "static/css/2.764ccc25.chunk.css",
-    "static/js/2.7b9e7653.chunk.js",
-    "static/css/main.ab237001.chunk.css",
-    "static/js/main.8c5bc02a.chunk.js"
+    "static/js/2.c1e26794.chunk.js",
+    "static/css/main.0fadb65d.chunk.css",
+    "static/js/main.c1241c66.chunk.js"
   ]
 }
