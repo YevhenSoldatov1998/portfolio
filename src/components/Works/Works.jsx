@@ -10,7 +10,7 @@ const Works = (props) => {
     return (
         <>
             <section className={`container ${s.wrap}`}>
-                <Title_s>{props.title}</Title_s>
+                <Title_s>開発</Title_s>
 
                 <div className={s.worksFilter}>
                     {props.categories.map(category => {
@@ -19,11 +19,11 @@ const Works = (props) => {
                 </div>
                 <div className={s.works}>
                     {props.items.map(item => {
-                        return <Work showDetail={props.showDetail} item={item}/>
+                        return <Work key={item.id} showDetail={props.showDetail} item={item}/>
                     })}
                 </div>
             </section>
-            {props.isShowDetails&& <DetailWork hideDetail={props.hideDetail} item={props.itemsDetail}/>}
+            {props.isShowDetails && <DetailWork hideDetail={props.hideDetail} item={props.itemsDetail}/>}
         </>
     )
 };

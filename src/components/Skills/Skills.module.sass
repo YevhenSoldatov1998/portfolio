@@ -7,6 +7,11 @@
   grid-column-gap: 200px
   &.partTwo
     margin-top: 100px
+    .partText
+      padding-right: 20px
+  &.partOne
+    .partText
+      padding-left: 20px
 .partImg  img
   width: 100%
 .partImgReverse  img
@@ -22,17 +27,29 @@
   text-align: right
 .title
   position: relative
-  &:after
-    content: '知識'
-    position: absolute
-    left: 0
-    top: 50%
-    transform: translateY(-50%)
-    font-size: 100px
-    font-weight: 500
-    opacity: .6
-  &.titleReverse
-    &:after
-      left: auto
-      right: 20px
-      content: '私自身'
+  font-size: 100px
+@media (max-width: 1400px)
+  .title
+    font-size: 70px
+  .partText p
+    margin: 40px 0
+  .partDefault
+    grid-column-gap: 80px
+@media (max-width: 992px)
+  .partDefault
+    grid-column-gap: 40px
+  .title
+    font-size: 60px
+  .wrap
+    padding: 60px 0
+@media (max-width: 778px)
+  .partDefault
+    grid-template-columns: 1fr
+    grid-row-gap: 30px
+    grid-column-gap: 0
+    &.partTwo
+     flex-direction: column-reverse
+
+  .partLeft
+    justify-self: center
+    text-align: center

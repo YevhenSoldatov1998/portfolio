@@ -2,7 +2,6 @@ import React from 'react'
 import s from "./Work.module.sass";
 
 const Work = (props) => {
-    debugger
     const call_showDetail = (item) =>{
         props.showDetail(item)
     }

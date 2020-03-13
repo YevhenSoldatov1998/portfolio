@@ -19,7 +19,7 @@ const App = (props) => {
                 <SkillsContainer/>
                 <div className={`description container`}>
                     <div className={`textDefault`}>
-                        <span className="hieroglyph">説明</span>
+                        <span className="hieroglyph">詳細</span>
                         <p>I am ready to go through and solve any
                             difficulties encountered on the development
                             path,</p>

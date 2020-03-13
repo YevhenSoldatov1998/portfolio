@@ -30,16 +30,35 @@ body
 .description
   display: grid
   grid-column-gap: 100px
-  padding-left: 200px
+  padding-left: 300px
   grid-template-columns: 6fr 6fr
 @keyframes rotate
   0%
     transform: rotate(0)
   100%
     transform: rotate(360deg)
+@media screen and (max-width: 1400px)
+  .hieroglyph
+    font-size: 70px
+    padding: 40px 0
+  .description
+    padding-left: 190px
+    grid-column-gap: 80px
 @media screen and (max-width: 1200px)
   .container
     padding: 20px 40px
+  .hieroglyph
+    transform: translateX(0)
+    font-size: 60px
+  .textDefault
+    font-size: 20px
+    line-height: 28px
+
+@media screen and (max-width: 992px)
+  .description
+    grid-column-gap: 40px
+@media screen and (max-width: 768px)
+  //
 @media screen and (max-width: 480px)
   .container
     padding: 10px 11px

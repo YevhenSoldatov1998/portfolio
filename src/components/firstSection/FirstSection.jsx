@@ -6,7 +6,7 @@ import MountUp from "./MountUp/MountUp";
 import Samurai from "./Samurai/Samurai";
 import FirstSectionText from "./FirstSectionText/FirstSectionText";
 import Switch from "./Switch/Switch";
-import {SUNSET_MOVE_CREATOR} from "../../redux/FirstSectionReducer";
+
 
 
 class FirstSection extends React.Component {
@@ -17,7 +17,7 @@ class FirstSection extends React.Component {
     render() {
         return (
             <section className={`firstSection`}>
-                <main className={this.props.switch === 'night' ? 'dark' : false}>
+                <main className={this.props.switch === 'night' ? 'dark' : 'night'}>
                     <Sun switch={this.props.switch}/>
                     <Samurai switch={this.props.switch}/>
                     <MountUp switch={this.props.switch}/>

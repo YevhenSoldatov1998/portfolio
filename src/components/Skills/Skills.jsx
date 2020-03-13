@@ -5,9 +5,9 @@ import skill2 from '../../img/skill2.png'
 const Skills = ({skills}) => {
     return (
         <section className={`${s.wrap}`}>
-                <article className={`${s.partDefault}`}>
-                <div className={`${s.part} ${s.partLeft}`}>
-                    <div className={`${s.title} titleDefault `}>Skills</div>
+                <article className={`${s.partDefault} ${s.partOne}`}>
+                <div className={`${s.partLeft}`}>
+                    <div className={`${s.title} titleDefault `}>知識</div>
                     <div className={`${s.partText} textDefault`}>
                         <p>HTML5, CSS3,
                             CSS frameworks, CSS preprocessors,
@@ -28,8 +28,8 @@ const Skills = ({skills}) => {
                     <div className={s.partImgReverse}>
                         <img src={skill2} alt=""/>
                     </div>
-                    <div className={`${s.part} ${s.partRight}`}>
-                        <div className={`${s.title} ${s.titleReverse} titleDefault `}>Why me? </div>
+                    <div>
+                        <div className={`${s.title}  titleDefault `}>私自身</div>
                         <div className={`${s.partText} textDefault`}>
                             <p>I am ready to go through and solve any
                                 difficulties encountered on the development
