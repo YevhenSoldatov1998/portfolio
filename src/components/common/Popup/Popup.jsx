@@ -9,7 +9,6 @@ export const Popup_s = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: 0;
     color: #4c044e;
     overflow: hidden;

@@ -42,6 +42,8 @@
 .title
   position: relative
   margin-top: 40px
+  display: flex
+  align-items: center
 .titleSkill
   position: absolute
   left: 20px
@@ -64,14 +66,17 @@
 @media (max-width: 778px)
 
   .title
-    margin-top: 0
     text-align: center
+    &.titleSkill
+      margin-top: 0
   .partDefault
     grid-template-columns: 1fr
     grid-row-gap: 30px
     grid-column-gap: 0
     &.partTwo
       margin-top: 60px
+      .title
+        margin-top: 0
       > div:first-child
         order: 2
 

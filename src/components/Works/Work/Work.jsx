@@ -8,9 +8,10 @@ import Typography from "@material-ui/core/Typography";
 import CardActions from "@material-ui/core/CardActions";
 import Button from "@material-ui/core/Button";
 
-const Work = ({item , showDetail}) => {
+const Work = ({item , showDetail, setOpen}) => {
     const call_showDetail = (item) =>{
-        showDetail(item)
+        showDetail(item);
+        setOpen(true);
     }
     const useStyles = makeStyles({
         root: {

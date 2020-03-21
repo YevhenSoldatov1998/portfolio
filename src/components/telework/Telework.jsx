@@ -1,7 +1,6 @@
 import React from 'react'
 import './telework.sass'
 import img from '../../img/samurai-voiny-zima-asia-legends-david-benzal-aziia-iaponiia.jpg'
-import ButtonGroup from "@material-ui/core/ButtonGroup";
 import Button from "@material-ui/core/Button";
 import {makeStyles} from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
@@ -12,8 +11,8 @@ const useStyles = makeStyles({
 
     },
     button: {
-        width: 350,
-        minHeight: 65,
+        width: 310,
+        minHeight: 55,
         border: '3px solid #CF411D',
         color: '#CF411D',
         textTransform: 'uppercase',
@@ -23,7 +22,7 @@ const useStyles = makeStyles({
         borderRadius: 0,
         fontWeight: 400,
         flexShrink: 0,
-        fontSize: '32px',
+        fontSize: '22px',
         marginRight: 10
     },
     buttonInverse: {
@@ -35,7 +34,8 @@ const useStyles = makeStyles({
     },
     descr: {
         marginTop: '-30px',
-        marginBottom: '40px'
+        marginBottom: '40px',
+        pointerEvents: 'none'
     }
 })
 const Telework = (props) =>{
@@ -45,7 +45,7 @@ const Telework = (props) =>{
     const classes = useStyles()
     return(
         <section className={`container telework`} style={styles} >
-            <h2 className={`title`}>Hire me to work</h2>
+            <h2 className={`title titleDefault`}>Hire me to work</h2>
             <Typography variant="h3" className={classes.descr}>リモートで</Typography>
             <div aria-label="Select" className={classes.root}>
                 <Button className={classes.button}>Contact with me</Button>
