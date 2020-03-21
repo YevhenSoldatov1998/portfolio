@@ -1,11 +1,10 @@
 import React from "react";
 import s from './contacts.module.sass'
-import {Title_s} from "../common/Title";
 
 const Contacts = (props) => {
     return(
         <div className={`container ${s.contacts}`}>
-            <Title_s >Contacts</Title_s>
+            <h2 className={`title`} >Contacts</h2>
             <form action="" className={s.form}>
                 <input placeholder="Enter your name" type="text"/>
                 <input placeholder="Enter your phone" type="text"/>

@@ -7,7 +7,9 @@ const DetailWork = (props) => {
         props.hideDetail()
     }
     return <Popup_s>
-        <div className = {s.overlay}></div>
+        <div className = {s.overlay}>
+
+        </div>
         <div className={s.popupItem}>
             <span onClick={call_hideDetail}>&times;</span>
             <div className={s.imgWrap}>

@@ -20,6 +20,7 @@ const mapStateToProps = (state) => {
         isShowDetails: state.works.isShowDetails
     }
 };
-export const WorksContainer = connect(mapStateToProps, {
+export const WorksContainer = connect(
+    mapStateToProps, {
     sortItems, showDetail, hideDetail
 })(Works);

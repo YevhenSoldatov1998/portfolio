@@ -17,8 +17,12 @@ const Switch = (props) => {
                        onChange={onClickSwitch.bind(this)}
                 />
                 <label className="onoffswitch-label" htmlFor="myonoffswitch">
-                    <span className="onoffswitch-inner"></span>
-                    <span className="onoffswitch-switch"></span>
+                    <span className="onoffswitch-inner">
+
+                    </span>
+                    <span className="onoffswitch-switch">
+
+                    </span>
                 </label>
             </div>
         </div>

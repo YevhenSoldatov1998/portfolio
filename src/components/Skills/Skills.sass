@@ -1,0 +1,111 @@
+.skills
+  display: flex
+
+.partDefault
+  display: grid
+  grid-template-columns: 7fr 5fr
+  align-items: center
+  position: relative
+  grid-column-gap: 200px
+
+  &.partTwo
+    margin-top: 100px
+    .partText
+      padding-right: 20px
+
+  &.partOne
+    .partText
+      padding-left: 20px
+
+.partImg img
+  width: 100%
+
+.partImgReverse img
+  width: 100%
+.stack p
+  display: flex
+  flex-direction: column
+  justify-content: center
+.wrap
+  padding: 100px 0
+  background-color: #fff
+  overflow: hidden
+  position: relative
+
+.partText p
+  margin: 60px 0
+
+.partLeft
+  justify-self: flex-end
+  text-align: right
+
+.title
+  position: relative
+  margin-top: 40px
+.titleSkill
+  position: absolute
+  left: 20px
+  top: -40px
+
+@media (max-width: 1400px)
+
+  .partText p
+    margin: 40px 0
+  .partDefault
+    grid-column-gap: 80px
+
+@media (max-width: 992px)
+  .partDefault
+    grid-column-gap: 40px
+
+  .wrap
+    padding: 60px 0
+
+@media (max-width: 778px)
+
+  .title
+    margin-top: 0
+    text-align: center
+  .partDefault
+    grid-template-columns: 1fr
+    grid-row-gap: 30px
+    grid-column-gap: 0
+    &.partTwo
+      margin-top: 60px
+      > div:first-child
+        order: 2
+
+      > div:last-child
+        order: 1
+        justify-self: center
+
+  .partDefault
+    &.partTwo
+      .partText
+        padding-right: 0
+        text-align: center
+
+    &.partOne
+      .partText
+        padding-left: 0
+
+
+  .partLeft
+    justify-self: center
+    text-align: center
+
+  .textDefault
+    font-size: 18px
+    line-height: 24px
+  .partImg
+    height: 485px
+    overflow: hidden
+    position: relative
+    img
+      position: absolute
+      top: 50%
+      transform: translateY(-50%)
+
+@media (max-width: 480px)
+  .title
+    font-size: 36px
