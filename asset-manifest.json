@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5260dc75.chunk.css",
-    "main.js": "/portfolio/static/js/main.690d203e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.690d203e.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.750305fb.chunk.css",
+    "main.js": "/portfolio/static/js/main.5bf3478b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5bf3478b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.860ade9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.860ade9b.js.map",
     "static/css/2.764ccc25.chunk.css": "/portfolio/static/css/2.764ccc25.chunk.css",
-    "static/js/2.cb7a899b.chunk.js": "/portfolio/static/js/2.cb7a899b.chunk.js",
-    "static/js/2.cb7a899b.chunk.js.map": "/portfolio/static/js/2.cb7a899b.chunk.js.map",
+    "static/js/2.99b7cf93.chunk.js": "/portfolio/static/js/2.99b7cf93.chunk.js",
+    "static/js/2.99b7cf93.chunk.js.map": "/portfolio/static/js/2.99b7cf93.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.9e1e62e71381f0d3d0dcb6a0e1a90507.js": "/portfolio/precache-manifest.9e1e62e71381f0d3d0dcb6a0e1a90507.js",
+    "precache-manifest.312be48a631cd7f01e21bc6d22b4cd6f.js": "/portfolio/precache-manifest.312be48a631cd7f01e21bc6d22b4cd6f.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/portfolio/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.5260dc75.chunk.css.map": "/portfolio/static/css/main.5260dc75.chunk.css.map",
-    "static/js/2.cb7a899b.chunk.js.LICENSE": "/portfolio/static/js/2.cb7a899b.chunk.js.LICENSE",
+    "static/css/main.750305fb.chunk.css.map": "/portfolio/static/css/main.750305fb.chunk.css.map",
+    "static/js/2.99b7cf93.chunk.js.LICENSE": "/portfolio/static/js/2.99b7cf93.chunk.js.LICENSE",
+    "static/media/formSamurai.jpg": "/portfolio/static/media/formSamurai.a2e21cc8.jpg",
     "static/media/mountapp.webp": "/portfolio/static/media/mountapp.23d89800.webp",
     "static/media/mountdown.webp": "/portfolio/static/media/mountdown.bb55f8d7.webp",
+    "static/media/samurai-voiny-zima-asia-legends-david-benzal-aziia-iaponiia.jpg": "/portfolio/static/media/samurai-voiny-zima-asia-legends-david-benzal-aziia-iaponiia.8fa91213.jpg",
     "static/media/samurai.webp": "/portfolio/static/media/samurai.3f7073f0.webp",
     "static/media/skill1.jpg": "/portfolio/static/media/skill1.8c023b8e.jpg",
     "static/media/skill2.png": "/portfolio/static/media/skill2.6227914b.png",
@@ -24,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.860ade9b.js",
     "static/css/2.764ccc25.chunk.css",
-    "static/js/2.cb7a899b.chunk.js",
-    "static/css/main.5260dc75.chunk.css",
-    "static/js/main.690d203e.chunk.js"
+    "static/js/2.99b7cf93.chunk.js",
+    "static/css/main.750305fb.chunk.css",
+    "static/js/main.5bf3478b.chunk.js"
   ]
 }

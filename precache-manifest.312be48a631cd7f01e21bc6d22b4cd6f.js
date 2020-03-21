@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "afeffdee7143fea31ecdb31d6e7fa8ec",
+    "revision": "590e46af88c7e00979e9a29f0f03886f",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "d09e2f37551f61725d9f",
+    "revision": "ccc5fc815cc459add6ee",
     "url": "/portfolio/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "85b05d75f67826c2e30d",
-    "url": "/portfolio/static/css/main.5260dc75.chunk.css"
+    "revision": "51d53e2879f0ed6538fd",
+    "url": "/portfolio/static/css/main.750305fb.chunk.css"
   },
   {
-    "revision": "d09e2f37551f61725d9f",
-    "url": "/portfolio/static/js/2.cb7a899b.chunk.js"
+    "revision": "ccc5fc815cc459add6ee",
+    "url": "/portfolio/static/js/2.99b7cf93.chunk.js"
   },
   {
-    "revision": "fd228f9b9a68ce6b23a6cf8b0a38a0e3",
-    "url": "/portfolio/static/js/2.cb7a899b.chunk.js.LICENSE"
+    "revision": "50f3c2cdf76718b503e36b59e86f1485",
+    "url": "/portfolio/static/js/2.99b7cf93.chunk.js.LICENSE"
   },
   {
-    "revision": "85b05d75f67826c2e30d",
-    "url": "/portfolio/static/js/main.690d203e.chunk.js"
+    "revision": "51d53e2879f0ed6538fd",
+    "url": "/portfolio/static/js/main.5bf3478b.chunk.js"
   },
   {
     "revision": "16c109c584451046bd84",
     "url": "/portfolio/static/js/runtime-main.860ade9b.js"
+  },
+  {
+    "revision": "a2e21cc8efc95d5fecae0e805050e7bd",
+    "url": "/portfolio/static/media/formSamurai.a2e21cc8.jpg"
   },
   {
     "revision": "23d8980004508305634374c3fe37aa92",
@@ -34,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bb55f8d7a0957a95db28f2c2db8e4a53",
     "url": "/portfolio/static/media/mountdown.bb55f8d7.webp"
+  },
+  {
+    "revision": "8fa91213a2c1c1333e05af53594b1a61",
+    "url": "/portfolio/static/media/samurai-voiny-zima-asia-legends-david-benzal-aziia-iaponiia.8fa91213.jpg"
   },
   {
     "revision": "3f7073f08dda91355593dc64947cd1a8",
