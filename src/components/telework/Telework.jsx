@@ -13,8 +13,8 @@ const useStyles = makeStyles({
     button: {
         width: 310,
         minHeight: 55,
-        border: '3px solid #CF411D',
-        color: '#CF411D',
+        border: '3px solid #3f51b5',
+        color: '#3f51b5',
         textTransform: 'uppercase',
         display: 'flex',
         alignItems: 'center',
@@ -26,10 +26,10 @@ const useStyles = makeStyles({
         marginRight: 10
     },
     buttonInverse: {
-        backgroundColor: '#CF411D',
+        backgroundColor: '#3f51b5',
         color: '#fff',
         '&:hover': {
-            color: '#CF411D'
+            color: '#3f51b5'
         }
     },
     descr: {

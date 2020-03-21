@@ -9,29 +9,43 @@ import InputAdornment from "@material-ui/core/InputAdornment";
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import PhoneIcon from '@material-ui/icons/Phone';
 import Button from "@material-ui/core/Button";
+import EmailIcon from '@material-ui/icons/Email';
 import img from '../../img/formSamurai.jpg'
 const useStyles = makeStyles(theme => ({
     root: {
-        padding: '120px 0',
-        display: 'flex'
+        padding: '120px 20px 60px',
+        display: 'flex',
+        alignItems: 'center',
+        position: 'relative',
+        justifyContent: 'space-between'
     },
-
+    h2: {
+      position: 'absolute',
+        top: 0
+    },
     formWrap: {
-        width: 700
+        width: 600
     },
     form: {
         display: 'flex',
         flexDirection: 'column',
+        justifyContent: 'flex-end',
+        alignItems: 'flex-end',
         padding: theme.spacing(4)
     },
     margin: {
-        marginBottom: 40
+        marginBottom: 40,
+        width: '100%'
+    },
+    button: {
+
     }
 }))
-const Contacts = (props) => {
+const Contacts = () => {
     const classes = useStyles()
     return (
-        <div className={`container contacts ${classes.root}`}>
+        <div className={` contacts ${classes.root}`}>
+            <h2 style={{opacity: .4}} className={`title titleDefault ${classes.h2}`}>連絡先</h2>
             <Paper elevation={3} className={classes.formWrap}>
                 <form action="" className={classes.form}>
                     <FormControl className={classes.margin}>
@@ -56,7 +70,18 @@ const Contacts = (props) => {
                             }
                         />
                     </FormControl>
-                    <Button>Send message</Button>
+                    <FormControl className={classes.margin}>
+                        <InputLabel htmlFor="input-message">Your message</InputLabel>
+                        <Input
+                            id="input-message"
+                            startAdornment={
+                                <InputAdornment position="start">
+                                    <EmailIcon/>
+                                </InputAdornment>
+                            }
+                        />
+                    </FormControl>
+                    <Button size="small" color="primary" className={classes.button}>Send message</Button>
                 </form>
             </Paper>
             <div>

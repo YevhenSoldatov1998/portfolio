@@ -59,12 +59,14 @@
 @media (max-width: 992px)
   .partDefault
     grid-column-gap: 40px
-
+  .partDefault.partTwo
+    margin-top: 40px
   .wrap
     padding: 60px 0
 
 @media (max-width: 778px)
-
+  .partText p
+    margin: 15px 0
   .title
     text-align: center
     &.titleSkill
@@ -74,11 +76,11 @@
     grid-row-gap: 30px
     grid-column-gap: 0
     &.partTwo
-      margin-top: 60px
+      margin-top: 30px
       .title
         margin-top: 0
       > div:first-child
-        order: 2
+        order: 0
 
       > div:last-child
         order: 1
@@ -103,9 +105,7 @@
     font-size: 18px
     line-height: 24px
   .partImg
-    height: 485px
-    overflow: hidden
-    position: relative
+    display: none
     img
       position: absolute
       top: 50%

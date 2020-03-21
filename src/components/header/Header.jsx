@@ -27,11 +27,11 @@ function HideOnScroll(props) {
         root: {
             display: 'flex',
             justifyContent: 'space-between',
-            height: 80,
+            height: 70,
             alignItems: 'center',
             flexDirection: 'row',
             width: '100%',
-            background: 'rgba(51,51,51,0.8)',
+            background: 'rgba(0,0,0, 0.8)',
             zIndex: 30
         }
     })
