@@ -11,20 +11,26 @@ import PhoneIcon from '@material-ui/icons/Phone';
 import Button from "@material-ui/core/Button";
 import EmailIcon from '@material-ui/icons/Email';
 import img from '../../img/formSamurai.jpg'
+
 const useStyles = makeStyles(theme => ({
     root: {
         padding: '120px 20px 60px',
         display: 'flex',
         alignItems: 'center',
         position: 'relative',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+
     },
     h2: {
-      position: 'absolute',
+        position: 'absolute',
         top: 0
     },
     formWrap: {
-        width: 600
+        width: 600,
+        flexShrink: 0,
+        [theme.breakpoints.down('sm')]: {
+            width: '100%'
+        }
     },
     form: {
         display: 'flex',
@@ -37,8 +43,12 @@ const useStyles = makeStyles(theme => ({
         marginBottom: 40,
         width: '100%'
     },
-    button: {
-
+    button: {},
+    img: {
+        marginLeft: 20,
+        [theme.breakpoints.down('md')]: {
+            display: 'none'
+        }
     }
 }))
 const Contacts = () => {
@@ -84,7 +94,7 @@ const Contacts = () => {
                     <Button size="small" color="primary" className={classes.button}>Send message</Button>
                 </form>
             </Paper>
-            <div>
+            <div className={classes.img}>
                 <img src={img} alt=""/>
             </div>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Skills.sass'
 import skill1 from '../../img/skill1.jpg'
-import skill2 from '../../img/skill2.png'
+import skill2 from '../../img/skill2.jpg'
 import LinearScaleIcon from '@material-ui/icons/LinearScale';
 import Divider from "@material-ui/core/Divider";
 
@@ -9,9 +9,9 @@ const Skills = () => {
     return (
         <section className={`wrap`}>
                 <article className={`partDefault partOne`}>
-                    <div className={`title titleDefault titleSkill titleWork`}>SKILLS</div>
                     <div className={`partLeft`}>
-                    <div className={`partText textDefault stack`}>
+                        <div className={`title titleDefault titleSkill titleWork`}>SKILLS</div>
+                        <div className={`partText textDefault stack`}>
 
                         <p>
                             <span>JavaScript, ES6, TypeScript <LinearScaleIcon  color="primary" /></span>

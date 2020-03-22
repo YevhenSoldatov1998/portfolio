@@ -48,6 +48,7 @@
   position: absolute
   left: 20px
   top: -40px
+  opacity: .4
 
 @media (max-width: 1400px)
 
@@ -56,6 +57,18 @@
   .partDefault
     grid-column-gap: 80px
 
+@media (max-width: 1200px)
+  .titleSkill
+    position: relative
+    top: 0
+    left: 0
+    padding: 0
+    margin: 0
+    text-align: right
+    display: flex
+    justify-content: flex-end
+  .partText p
+    margin: 20px 0
 @media (max-width: 992px)
   .partDefault
     grid-column-gap: 40px
@@ -63,7 +76,8 @@
     margin-top: 40px
   .wrap
     padding: 60px 0
-
+  .partDefault.partTwo > div:last-child
+    padding: 0 11px
 @media (max-width: 778px)
   .partText p
     margin: 15px 0
@@ -110,7 +124,13 @@
       position: absolute
       top: 50%
       transform: translateY(-50%)
-
+  .title.titleSkill
+    justify-content: center
+  .stack svg
+    display: none
+  .partDefault.partTwo .title
+    display: flex
+    justify-content: center
 @media (max-width: 480px)
   .title
     font-size: 36px

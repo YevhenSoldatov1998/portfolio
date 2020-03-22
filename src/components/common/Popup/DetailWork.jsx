@@ -55,7 +55,7 @@ const DetailWork = ({hideDetail, handleClose, item}) => {
             />
             <CardMedia
                 className={classes.media}
-                image={item.img}
+                image={item.fullImg}
                 title={item.name}
             />
             <CardContent>
