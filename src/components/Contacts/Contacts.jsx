@@ -11,6 +11,7 @@ import PhoneIcon from '@material-ui/icons/Phone';
 import Button from "@material-ui/core/Button";
 import EmailIcon from '@material-ui/icons/Email';
 import img from '../../img/formSamurai.jpg'
+import {Fade} from "react-reveal";
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -54,7 +55,7 @@ const useStyles = makeStyles(theme => ({
 const Contacts = () => {
     const classes = useStyles()
     return (
-        <div className={` contacts ${classes.root}`}>
+        <div id='contacts' className={` contacts ${classes.root}`}>
             <h2 style={{opacity: .4}} className={`title titleDefault ${classes.h2}`}>連絡先</h2>
             <Paper elevation={3} className={classes.formWrap}>
                 <form action="" className={classes.form}>
@@ -95,7 +96,9 @@ const Contacts = () => {
                 </form>
             </Paper>
             <div className={classes.img}>
-                <img src={img} alt=""/>
+               <Fade right>
+                   <img src={img} alt=""/>
+               </Fade>
             </div>
         </div>
 

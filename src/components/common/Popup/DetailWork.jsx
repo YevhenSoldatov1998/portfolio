@@ -18,7 +18,7 @@ import Collapse from "@material-ui/core/Collapse";
 const useStyles = makeStyles(theme => ({
     media: {
         height: 0,
-        paddingTop: '56.25%', // 16:9
+        paddingTop: '40.25%', // 16:9
     },
     expand: {
         transform: 'rotate(0deg)',
@@ -55,7 +55,7 @@ const DetailWork = ({hideDetail, handleClose, item}) => {
             />
             <CardMedia
                 className={classes.media}
-                image={item.fullImg}
+                image={require('./../../../img/works/fullSize/' + item.fullImg)}
                 title={item.name}
             />
             <CardContent>

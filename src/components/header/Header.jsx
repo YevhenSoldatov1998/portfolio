@@ -15,7 +15,7 @@ import ListItem from "@material-ui/core/ListItem";
 import List from "@material-ui/core/List";
 import Typography from "@material-ui/core/Typography";
 import MenuIcon from '@material-ui/icons/Menu';
-import Divider from "@material-ui/core/Divider";
+
 function HideOnScroll(props) {
     const {children, window} = props;
     const trigger = useScrollTrigger({target: window ? window() : undefined});
@@ -26,7 +26,6 @@ function HideOnScroll(props) {
         </Slide>
     );
 }
-
 HideOnScroll.propTypes = {
     children: PropTypes.element.isRequired,
     window: PropTypes.func,
@@ -80,9 +79,10 @@ const Header = (props) => {
             <CssBaseline/>
             <HideOnScroll {...props}>
                 <AppBar className={classes.root}>
-
                     <div className={style.logo_wrap}>
-                        <div className={style.logo}></div>
+                        <div className={style.logo}>
+
+                        </div>
                         <div className={style.name}><span> Y</span>.Soldatov</div>
                     </div>
                     <Box display={{xs: 'block', sm: 'none'}}>
@@ -105,7 +105,6 @@ const Header = (props) => {
                     </Box>
                     <Box display={{xs: 'none', sm: 'block'}}>
                         <Navbar nav={props.nav}/>
-
                     </Box>
 
                 </AppBar>

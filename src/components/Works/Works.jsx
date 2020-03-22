@@ -50,7 +50,7 @@ const Works = (props) => {
         }
     };
     return (
-        <section className={`wrap-works`}>
+        <section name={'works'} id={'works'} className={`wrap-works`}>
             <div>
                 <div className="container">
                     <h2 className={`title titleWork titleDefault`}>
