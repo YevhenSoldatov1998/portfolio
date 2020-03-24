@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.42fb8ac9.chunk.css",
+    "main.css": "/portfolio/static/css/main.8871df9c.chunk.css",
     "main.js": "/portfolio/static/js/main.9f635386.chunk.js",
     "main.js.map": "/portfolio/static/js/main.9f635386.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.860ade9b.js",
@@ -9,10 +9,10 @@
     "static/js/2.a48da25e.chunk.js": "/portfolio/static/js/2.a48da25e.chunk.js",
     "static/js/2.a48da25e.chunk.js.map": "/portfolio/static/js/2.a48da25e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.7f49e6072c2b0ae7f11ab6a76ccab261.js": "/portfolio/precache-manifest.7f49e6072c2b0ae7f11ab6a76ccab261.js",
+    "precache-manifest.3ebcca0a78726b65a8700a7c71839e0f.js": "/portfolio/precache-manifest.3ebcca0a78726b65a8700a7c71839e0f.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/portfolio/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.42fb8ac9.chunk.css.map": "/portfolio/static/css/main.42fb8ac9.chunk.css.map",
+    "static/css/main.8871df9c.chunk.css.map": "/portfolio/static/css/main.8871df9c.chunk.css.map",
     "static/js/2.a48da25e.chunk.js.LICENSE": "/portfolio/static/js/2.a48da25e.chunk.js.LICENSE",
     "static/media/features-genymotion-imac.jpg": "/portfolio/static/media/features-genymotion-imac.b743e915.jpg",
     "static/media/formSamurai.jpg": "/portfolio/static/media/formSamurai.2cd3791b.jpg",
@@ -35,7 +35,7 @@
     "static/js/runtime-main.860ade9b.js",
     "static/css/2.764ccc25.chunk.css",
     "static/js/2.a48da25e.chunk.js",
-    "static/css/main.42fb8ac9.chunk.css",
+    "static/css/main.8871df9c.chunk.css",
     "static/js/main.9f635386.chunk.js"
   ]
 }
