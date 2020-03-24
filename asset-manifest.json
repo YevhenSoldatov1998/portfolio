@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ffa3f944.chunk.css",
-    "main.js": "/portfolio/static/js/main.899cce76.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.899cce76.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.42fb8ac9.chunk.css",
+    "main.js": "/portfolio/static/js/main.9f635386.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9f635386.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.860ade9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.860ade9b.js.map",
     "static/css/2.764ccc25.chunk.css": "/portfolio/static/css/2.764ccc25.chunk.css",
-    "static/js/2.ace98456.chunk.js": "/portfolio/static/js/2.ace98456.chunk.js",
-    "static/js/2.ace98456.chunk.js.map": "/portfolio/static/js/2.ace98456.chunk.js.map",
+    "static/js/2.a48da25e.chunk.js": "/portfolio/static/js/2.a48da25e.chunk.js",
+    "static/js/2.a48da25e.chunk.js.map": "/portfolio/static/js/2.a48da25e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.15ac0e82b11f1422fe4b40382e983871.js": "/portfolio/precache-manifest.15ac0e82b11f1422fe4b40382e983871.js",
+    "precache-manifest.7f49e6072c2b0ae7f11ab6a76ccab261.js": "/portfolio/precache-manifest.7f49e6072c2b0ae7f11ab6a76ccab261.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/portfolio/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.ffa3f944.chunk.css.map": "/portfolio/static/css/main.ffa3f944.chunk.css.map",
-    "static/js/2.ace98456.chunk.js.LICENSE": "/portfolio/static/js/2.ace98456.chunk.js.LICENSE",
+    "static/css/main.42fb8ac9.chunk.css.map": "/portfolio/static/css/main.42fb8ac9.chunk.css.map",
+    "static/js/2.a48da25e.chunk.js.LICENSE": "/portfolio/static/js/2.a48da25e.chunk.js.LICENSE",
     "static/media/features-genymotion-imac.jpg": "/portfolio/static/media/features-genymotion-imac.b743e915.jpg",
     "static/media/formSamurai.jpg": "/portfolio/static/media/formSamurai.2cd3791b.jpg",
     "static/media/lp-tron.jpg": "/portfolio/static/media/lp-tron.dc23e03a.jpg",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.860ade9b.js",
     "static/css/2.764ccc25.chunk.css",
-    "static/js/2.ace98456.chunk.js",
-    "static/css/main.ffa3f944.chunk.css",
-    "static/js/main.899cce76.chunk.js"
+    "static/js/2.a48da25e.chunk.js",
+    "static/css/main.42fb8ac9.chunk.css",
+    "static/js/main.9f635386.chunk.js"
   ]
 }
